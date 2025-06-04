@@ -32,12 +32,3 @@ print(df['Aggregate rating'].value_counts().sort_index())
 print("\nAggregate rating distribution (percentages):")
 print(df['Aggregate rating'].value_counts(normalize=True).sort_index() * 100)
 
-# Step 7: Visualize distribution of aggregate ratings
-plt.figure(figsize=(10, 6))
-sns.countplot(data=df, x='Aggregate rating', palette='mako', order=sorted(df['Aggregate rating'].unique()))
-plt.title("Distribution of Aggregate Ratings")
-plt.xlabel("Aggregate Rating")
-plt.ylabel("Count")
-plt.xticks(rotation=45)
-plt.tight_layout()
-plt.show()
