@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset
-df = pd.read_csv("Dataset .csv")
+df = pd.read_csv(r"level3\Dataset .csv")
 
 # Handle missing cuisines
 df['Cuisines'] = df['Cuisines'].fillna('Unknown')

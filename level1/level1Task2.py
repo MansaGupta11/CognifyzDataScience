@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-df = pd.read_csv("Dataset .csv")
+df = pd.read_csv("level1\Dataset .csv")
 
 #  1. Basic Statistical Measures for Numerical Columns
 print("Descriptive Statistics (Mean, Median, Std):\n")

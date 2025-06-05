@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Load dataset
-df = pd.read_csv("Dataset .csv")
+df = pd.read_csv("level3\Dataset .csv")
 df['Cuisines'] = df['Cuisines'].fillna('Unknown')
 
 # Sidebar Filters

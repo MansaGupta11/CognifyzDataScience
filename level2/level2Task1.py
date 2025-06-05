@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset
-df = pd.read_csv("Dataset .csv")
+df = pd.read_csv(r"level2\Dataset .csv")
 
 # 1. Percentage of Restaurants with Table Booking and Online Delivery
 table_booking_percent = df['Has Table booking'].value_counts(normalize=True) * 100

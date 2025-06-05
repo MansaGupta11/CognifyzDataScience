@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the datasets
-df = pd.read_csv("Dataset .csv")
+df = pd.read_csv("level1\Dataset .csv")
 
 # Step 1: Preview the dataset
 print("Preview of the dataset:")

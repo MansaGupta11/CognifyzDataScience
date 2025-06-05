@@ -4,7 +4,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv("Dataset .csv")
+df = pd.read_csv("level2\Dataset .csv")
 
 # 1. Find the most common price range
 
